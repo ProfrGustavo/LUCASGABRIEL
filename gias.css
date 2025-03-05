@@ -1,6 +1,6 @@
 .guiaesquerda, .guiadireita {
     background-color: #ffffff; /* Fundo branco */
-    padding: 20px; /* Espaçamento interno */
+    /*padding: 20px; /* Espaçamento interno */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
     margin: 5% 0% 0;
   }
