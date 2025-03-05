@@ -11,7 +11,7 @@ header {
   header img {
     width: 100px; /* Largura das imagens */
     height: 100px; /* Altura das imagens */
-    object-fit: scale-down /* Ajusta as imagens proporcionalmente */
+    object-fit: scale-down; /* Ajusta as imagens proporcionalmente */
     /*border-radius: 50%; /* Imagens em formato circular */
     /*border: 2px solid #006400; /* Borda verde escuro */
     margin: 0% 2% 0; /* Margem superior e laterais */
