@@ -1,4 +1,4 @@
-.header {
+header {
     background-color: #90EE90; /* Verde claro */
     margin: 10% 10% 0; /* Margem superior e laterais */
     padding: 20px; /* Espaçamento interno */
@@ -8,7 +8,7 @@
     justify-content: space-between; /* Espaça os itens horizontalmente */
   }
   
-  .header img {
+  header img {
     width: 80px; /* Largura das imagens */
     height: 80px; /* Altura das imagens */
     object-fit: cover; /* Ajusta as imagens proporcionalmente */
@@ -16,7 +16,7 @@
     border: 2px solid #006400; /* Borda verde escuro */
   }
   
-  .header h1 {
+  header h1 {
     flex-grow: 1; /* Faz o título ocupar o espaço central */
     text-align: center;
     color: #006400; /* Texto verde escuro */
