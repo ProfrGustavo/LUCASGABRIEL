@@ -53,3 +53,9 @@
     font-weight: bold; /* Negrito para destaque */
     margin-top: 5px; /* Espaço entre o texto e o número */
   }
+
+  .div{
+    background-color: #000000; /* Fundo branco */
+    padding: 2px; /* Espaçamento interno */
+
+  }
