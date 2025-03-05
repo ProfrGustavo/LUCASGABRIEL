@@ -1,13 +1,10 @@
 .corpo {
     background-color: #211915; /* Cor marrom */
-    height: 300px; /* Altura fixa, ajuste conforme necessário */
+    height: calc(100vh - 300px); /* Ocupa a altura total da viewport menos a altura do header */
     padding: 20px; /* Espaçamento interno */
-    color: #211915 ; /* Texto em branco para contraste */
-    /*border-radius: 0 0 10px 10px; /* Bordas arredondadas no canto inferior */
-    margin: 0; /* Remove margens para colar no header */
+    color: #ffffff; /* Texto branco para contraste */
+    margin: 0 2% 0; /* Margens laterais de 2% e nenhuma margem superior/inferior */
     display: flex;
     justify-content: center; /* Centraliza conteúdo horizontalmente */
     align-items: center; /* Centraliza conteúdo verticalmente */
-    margin: 0% 2% 0;
-
-  }
+}
