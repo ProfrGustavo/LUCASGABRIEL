@@ -5,9 +5,14 @@
   }
   
   .guiaesquerda {
-    width: 50%; /* Ocupa 50% do espaço */
+    width: 50%; /* Ocupa 50% do espaço total */
   }
   
   .guiadireita {
-    width: 40%; /* Ocupa 40% do espaço */
+    width: 40%; /* Ocupa 40% do espaço total */
+  }
+  
+  /* Espaçamento entre as divs */
+  .corpo > .guiaesquerda + .giadireita {
+    margin-left: 10%; /* Espaçamento entre as duas divs */
   }
