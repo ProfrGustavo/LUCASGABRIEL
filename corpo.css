@@ -1,5 +1,5 @@
 .corpo {
-    background-color: #8B4513; /* Cor marrom */
+    background-color: #211915; /* Cor marrom */
     height: 300px; /* Altura fixa, ajuste conforme necessário */
     padding: 20px; /* Espaçamento interno */
     color: #211915 ; /* Texto em branco para contraste */
@@ -8,6 +8,6 @@
     display: flex;
     justify-content: center; /* Centraliza conteúdo horizontalmente */
     align-items: center; /* Centraliza conteúdo verticalmente */
-    margin: 5% 2% 0;
+    margin: 0% 2% 0;
 
   }
