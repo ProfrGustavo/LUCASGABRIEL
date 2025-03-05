@@ -1,10 +1,13 @@
-/* Estilo do Corpo */
+
 .corpo {
-    display: flex; /* Define layout flexível para alinhar as guias lado a lado */
-    justify-content: space-between; /* Espaça as guias uniformemente */
-    align-items: stretch; /* Garante que as guias tenham a mesma altura */
-    height: calc(100vh - 300px); /* Ajusta a altura ao restante da tela */
-    margin: 0; /* Remove margens externas */
-    padding: 0; /* Remove espaçamento interno */
-    background-color: #211915;
-}
+    display: flex; /* Define layout flexível */
+    justify-content: space-between; /* Espaça os elementos com uniformidade */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    height: calc(100vh - 300px); /* Ajusta altura ao restante da tela */
+    margin: 0 2% 0; /* Remove todas as margens externas */
+    padding: 0; /* Remove qualquer padding lateral */
+    background-color: #211915; /* Fundo marrom */
+  }
+
+
+

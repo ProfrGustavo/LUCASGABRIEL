@@ -1,73 +1,61 @@
-/* Estilo Compartilhado entre as Guias */
 .guiaesquerda, .guiadireita {
     background-color: #ffffff; /* Fundo branco */
     padding: 20px; /* Espaçamento interno */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
-    display: flex; /* Define layout flexível interno */
-    flex-direction: column; /* Alinha os elementos internamente em uma coluna */
+    margin: 5% 0% 0;
   }
   
-  /* Guia Esquerda */
   .guiaesquerda {
-    flex: 5; /* Ocupa 50% do espaço disponível no corpo */
+    width: 40%; /* Ocupa 50% do espaço total */
   }
   
-  /* Guia Direita */
-  .giadireita {
-    flex: 4; /* Ocupa 40% do espaço disponível no corpo */
-    margin-left: 1%; /* Cria espaçamento entre as duas guias */
+  .guiadireita {
+    width: 50%; /* Ocupa 40% do espaço total */
   }
   
-  /* Estilo das Imagens */
+  /* Espaçamento entre as divs */
+  .corpo > .guiaesquerda + .giadireita {
+    margin-left: 10%; /* Espaçamento entre as duas divs */
+  }
+
   div img {
     width: 100px; /* Largura das imagens */
     height: 100px; /* Altura das imagens */
     object-fit: scale-down; /* Ajusta as imagens proporcionalmente */
     border-radius: 50%; /* Imagens em formato circular */
-    border: 8px solid #331fe6; /* Borda azul */
-    margin: 0; /* Remove margens */
+    border: 8px solid #331fe6; /* Borda verde escuro */
+    margin: 0% 0% 0%; /* Margem superior e laterais */
   }
-  
-  /* Estilo das Estatísticas */
+
+
+
   .stats {
     display: flex; /* Alinha os elementos horizontalmente */
-    justify-content: space-between; /* Espaça os itens igualmente */
-    align-items: center; /* Alinha os itens verticalmente ao centro */
-    margin: 20px 0; /* Espaçamento vertical entre as linhas */
+    justify-content: space-between; /* Espaça os itens com igualdade */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+    margin: 20px 0; /* Espaçamento vertical da linha */
     text-align: center; /* Centraliza o texto dentro de cada bloco */
   }
   
   .stat {
-    flex: 1; /* Cada elemento ocupa espaço proporcional */
+    flex: 1; /* Cada elemento ocupa espaço igual */
   }
   
   .stat p {
-    font-size: 16px; /* Tamanho do texto */
-    margin: 0; /* Remove margens superiores/inferiores */
+    font-size: 16px; /* Tamanho do texto para o rótulo */
+    margin: 0; /* Remove margem superior/inferior */
     font-family: sans-serif;
   }
   
   .stat span {
-    display: block; /* Exibe o número em uma linha separada */
-    font-size: 24px; /* Tamanho do número */
+    display: block; /* Mantém o número em uma linha separada */
+    font-size: 24px; /* Tamanho maior para o número */
     font-weight: bold; /* Negrito para destaque */
-    margin-top: 5px; /* Espaçamento entre o texto e o número */
+    margin-top: 5px; /* Espaço entre o texto e o número */
   }
-  
-  /* Seção de Espaçamento (Div Vazia) */
-  .div {
-    background-color: #000000; /* Fundo preto */
+
+  .div{
+    background-color: #000000; /* Fundo branco */
     padding: 2px; /* Espaçamento interno */
-  }
-  
-  /* Responsividade (Ajuste para Telas Menores) */
-  @media (max-width: 768px) {
-    .corpo {
-      flex-direction: column; /* Empilha as guias verticalmente */
-    }
-  
-    .guiaesquerda, .guiadireita {
-      width: 100%; /* As guias ocupam toda a largura da tela */
-      margin: 0 0 10px 0; /* Espaçamento inferior */
-    }
+
   }
