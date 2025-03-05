@@ -2,10 +2,12 @@
     background-color: #8B4513; /* Cor marrom */
     height: 300px; /* Altura fixa, ajuste conforme necessário */
     padding: 20px; /* Espaçamento interno */
-    color: #211915 /* Texto em branco para contraste */
+    color: #211915 ; /* Texto em branco para contraste */
     /*border-radius: 0 0 10px 10px; /* Bordas arredondadas no canto inferior */
     margin: 0; /* Remove margens para colar no header */
     display: flex;
     justify-content: center; /* Centraliza conteúdo horizontalmente */
     align-items: center; /* Centraliza conteúdo verticalmente */
+    margin: 5% 2% 0;
+
   }
