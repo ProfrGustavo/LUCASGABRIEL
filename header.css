@@ -13,7 +13,7 @@ header {
     height: 80px; /* Altura das imagens */
     object-fit: cover; /* Ajusta as imagens proporcionalmente */
     /*border-radius: 50%; /* Imagens em formato circular */
-    border: 2px solid #006400; /* Borda verde escuro */
+    /*border: 2px solid #006400; /* Borda verde escuro */
   }
   
   header h1 {
