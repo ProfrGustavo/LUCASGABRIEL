@@ -1,0 +1,15 @@
+.guiaesquerda, .guiadireita {
+    background-color: #ffffff; /* Fundo branco */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+  
+  .guiaesquerda {
+    width: 50%; /* Ocupa 50% do espaço */
+  }
+  
+  .guiadireita {
+    width: 40%; /* Ocupa 40% do espaço */
+    margin-left: 10%; /* Espaçamento entre as duas divs */
+  }
