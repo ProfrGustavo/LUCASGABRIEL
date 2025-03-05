@@ -1,6 +1,6 @@
 header {
     background-color: #00bf63; /* Verde claro */
-    margin: 2% 2% 0; /* Margem superior e laterais */
+    margin: 2% 5% 0; /* Margem superior e laterais */
     padding: 20px; /* Espaçamento interno */
     /*border-radius: 10px; /* Bordas arredondadas */
     display: flex; /* Layout flexível */
