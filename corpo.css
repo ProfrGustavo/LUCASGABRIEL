@@ -1,6 +1,6 @@
 .corpo {
     background-color: #211915; /* Cor marrom */
-    height: calc(100vh - 300px); /* Ocupa a altura total da viewport menos a altura do header */
+    height: auto; /* Ocupa a altura total da viewport menos a altura do header */
     padding: 20px; /* Espaçamento interno */
     color: #ffffff; /* Texto branco para contraste */
     margin: 0 2% 0; /* Margens laterais de 2% e nenhuma margem superior/inferior */
