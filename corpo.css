@@ -1,4 +1,4 @@
-.corpo {
+/*.corpo {
     background-color: #211915; /* Cor marrom */
     height: auto; /* Ocupa a altura total da viewport menos a altura do header */
     padding: 20px; /* Espaçamento interno */
@@ -8,3 +8,14 @@
     justify-content: center; /* Centraliza conteúdo horizontalmente */
     align-items: center; /* Centraliza conteúdo verticalmente */
 }
+
+
+.corpo {
+    display: flex; /* Define layout flexível */
+    justify-content: space-between; /* Espaça os elementos com uniformidade */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    height: calc(100vh - 300px); /* Ajusta altura ao restante da tela */
+    margin: 0; /* Remove todas as margens externas */
+    padding: 0; /* Remove qualquer padding lateral */
+    background-color: #211915; /* Fundo marrom */
+  }
