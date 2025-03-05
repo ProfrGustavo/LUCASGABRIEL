@@ -1,11 +1,13 @@
 
-
 .corpo {
     display: flex; /* Define layout flexível */
     justify-content: space-between; /* Espaça os elementos com uniformidade */
     align-items: center; /* Alinha os itens verticalmente ao centro */
     height: calc(100vh - 300px); /* Ajusta altura ao restante da tela */
-    margin: 0; /* Remove todas as margens externas */
+    margin: 0 2% 0; /* Remove todas as margens externas */
     padding: 0; /* Remove qualquer padding lateral */
     background-color: #211915; /* Fundo marrom */
   }
+
+
+
