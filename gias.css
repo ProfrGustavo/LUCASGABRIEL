@@ -26,3 +26,29 @@
     border: 8px solid #331fe6; /* Borda verde escuro */
     margin: 0% 0% 0%; /* Margem superior e laterais */
   }
+
+
+
+  .stats {
+    display: flex; /* Alinha os elementos horizontalmente */
+    justify-content: space-between; /* Espaça os itens com igualdade */
+    align-items: center; /* Alinha os itens ao centro verticalmente */
+    margin: 20px 0; /* Espaçamento vertical da linha */
+    text-align: center; /* Centraliza o texto dentro de cada bloco */
+  }
+  
+  .stat {
+    flex: 1; /* Cada elemento ocupa espaço igual */
+  }
+  
+  .stat p {
+    font-size: 16px; /* Tamanho do texto para o rótulo */
+    margin: 0; /* Remove margem superior/inferior */
+  }
+  
+  .stat span {
+    display: block; /* Mantém o número em uma linha separada */
+    font-size: 24px; /* Tamanho maior para o número */
+    font-weight: bold; /* Negrito para destaque */
+    margin-top: 5px; /* Espaço entre o texto e o número */
+  }
