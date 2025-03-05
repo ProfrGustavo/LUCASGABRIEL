@@ -6,11 +6,11 @@
   }
   
   .guiaesquerda {
-    width: 50%; /* Ocupa 50% do espaço total */
+    width: 40%; /* Ocupa 50% do espaço total */
   }
   
   .guiadireita {
-    width: 40%; /* Ocupa 40% do espaço total */
+    width: 50%; /* Ocupa 40% do espaço total */
   }
   
   /* Espaçamento entre as divs */
@@ -23,6 +23,6 @@
     height: 100px; /* Altura das imagens */
     object-fit: scale-down; /* Ajusta as imagens proporcionalmente */
     border-radius: 50%; /* Imagens em formato circular */
-    border: 2px solid #006400; /* Borda verde escuro */
-    margin: 0% 2% 0; /* Margem superior e laterais */
+    border: 8px solid #331fe6; /* Borda verde escuro */
+    margin: 0% 0% 0%; /* Margem superior e laterais */
   }
